@@ -8,6 +8,7 @@
         name="task"
         id="task"
         placeholder="Add Task"
+        autocomplete="off"
       />
     </div>
     <div class="form-control">
@@ -18,6 +19,7 @@
         name="day"
         id="day"
         placeholder="Add Day & Time"
+        autocomplete="off"
       />
     </div>
     <div class="form-control form-control-check">
@@ -48,7 +50,7 @@ export default {
         id: Math.floor(Math.random() * 100000),
         text: this.text,
         day: this.day,
-        remider: this.reminder,
+        reminder: this.reminder,
       };
 
       this.$emit("add-task", newTask);
