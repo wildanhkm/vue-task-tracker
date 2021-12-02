@@ -16,13 +16,7 @@
       "id": 3,
       "text": "Shopping",
       "day": "April 8, 2021",
-      "reminder": false
-    },
-    {
-      "id": 23906,
-      "text": "Buy stocks",
-      "day": "April 9, 2021 at 9am",
-      "remider": true
+      "reminder": true
     },
     {
       "id": 32058,
